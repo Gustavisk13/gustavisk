@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
     display: flex;
     height: 80px;
-    padding: 0 22px;
+    padding: 0;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -18,15 +18,16 @@ export const Logo = styled.div`
     `
 export const Spacer = styled.div`
     display: flex;
-    flex: 4;
+    flex: 3;
     `
 export const Image = styled.img`
     width: 180px;
     height: 180px;
     `
 export const Icon = styled.img`
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
     `
 
 export const Nav = styled.nav`
@@ -47,7 +48,7 @@ export const NavOptions = styled.div`
     display: flex;
     align-items: center;
     justify-content: end;
-    gap: 22px;
+    gap: 14px;
     width: 100%;
     flex: 1;
     `
