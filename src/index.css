@@ -2,6 +2,10 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  max-width: 1020px;
+  width: 100%;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
 }
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
