@@ -1,17 +1,18 @@
-import './App.css'
-import Navbar from './components/Navbar'
-import Presentation from './components/Presentation'
-import Technologies from './components/Technologies'
+import "./App.css";
+import Experiences from "./components/Experiences";
+import Navbar from "./components/Navbar";
+import Presentation from "./components/Presentation";
+import Technologies from "./components/Technologies";
 
 function App() {
-
   return (
     <>
       <Navbar />
-      <Presentation/>
-      <Technologies/>
+      <Presentation />
+      <Technologies />
+      <Experiences />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
