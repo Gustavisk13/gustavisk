@@ -15,7 +15,7 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-around;
     max-width: 100%;
-    height: 15rem;
+    height: 15.5rem;
     `
 
 export const Spacer = styled.span`
