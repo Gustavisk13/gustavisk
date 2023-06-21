@@ -1,0 +1,16 @@
+.navItem {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid #000;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+        }
+    &:hover:after {
+        transform: scaleX(1);
+        }
+    
+}

@@ -42,7 +42,19 @@ export const NavItem = styled.div`
     display: flex;
     align-items: center;
     cursor: pointer;
+    position: relative;
     `
+export const NavItemActive = styled(NavItem)`
+&:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px #019fb6;  
+    transform: scaleX(1);  
+    transition: transform 250ms ease-in-out;
+}`
+
+
+
 
 export const NavOptions = styled.div`
     display: flex;

@@ -23,24 +23,6 @@ export default function Experiences() {
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum velit tenetur unde accusamus, facilis beatae quis dolore quaerat voluptas laboriosam error, nobis reprehenderit, nam est? Ipsa nemo impedit alias odio.",
       cover: "src/assets/images/cover.png",
     },
-    {
-      title: "Desenvolvedor Fullstack",
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum velit tenetur unde accusamus, facilis beatae quis dolore quaerat voluptas laboriosam error, nobis reprehenderit, nam est? Ipsa nemo impedit alias odio.",
-      cover: "src/assets/images/cover.png",
-    },
-    {
-      title: "Desenvolvedor Fullstack",
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum velit tenetur unde accusamus, facilis beatae quis dolore quaerat voluptas laboriosam error, nobis reprehenderit, nam est? Ipsa nemo impedit alias odio.",
-      cover: "src/assets/images/cover.png",
-    },
-    {
-      title: "Desenvolvedor Fullstack",
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum velit tenetur unde accusamus, facilis beatae quis dolore quaerat voluptas laboriosam error, nobis reprehenderit, nam est? Ipsa nemo impedit alias odio.",
-      cover: "src/assets/images/cover.png",
-    },
   ];
   return (
     <>
@@ -58,6 +40,7 @@ export default function Experiences() {
           </>
         ))}
       </Container>
+      <Title>Ver tudo</Title>
     </>
   );
 }

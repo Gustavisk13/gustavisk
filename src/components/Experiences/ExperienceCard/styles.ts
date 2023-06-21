@@ -19,7 +19,7 @@ export const TextContainer = styled.div`
 export const Cover = styled.img`
     display: flex;
     width: 100%;
-    max-width: 400px;
+    max-width: 460px;
     border-radius: ${(props: { isReverse: boolean }) => props.isReverse ? '0 8px 8px 0' : '8px 0 0 8px'};
     justify-content: center;
     font-size: 16px;
